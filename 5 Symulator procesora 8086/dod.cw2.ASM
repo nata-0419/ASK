@@ -1,0 +1,20 @@
+CLO
+IN 00
+MOV [C0], AL
+IN 00
+MOV [C1], AL
+IN 00
+MOV [C2], AL
+IN 00
+MOV [C3], AL
+IN 00
+MOV [C4], AL
+IN 00
+MOV [C5], AL
+IN 00
+MOV [C6], AL
+IN 00
+MOV [C7], AL
+
+
+AA

@@ -1,0 +1,7 @@
+CLO 
+MOV AL,4
+MOV BL,4
+MUL AL,BL
+MUL AL,4
+
+END

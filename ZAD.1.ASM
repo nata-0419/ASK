@@ -1,0 +1,15 @@
+clo
+
+MOV AL,3
+CALL 30
+MOV [C0],AL
+
+MOV AL,7
+CALL 30
+MOV [C1],AL
+
+ORG 30 
+ADD AL,30
+RET
+
+END
