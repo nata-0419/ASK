@@ -15,6 +15,3 @@ IN 00
 MOV [C6], AL
 IN 00
 MOV [C7], AL
-
-
-AA
