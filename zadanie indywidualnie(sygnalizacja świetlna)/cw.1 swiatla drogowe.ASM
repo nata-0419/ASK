@@ -1,0 +1,18 @@
+JMP Start
+
+DB 84
+DB C8
+DB 30
+DB 58
+
+Start:
+
+MOV BL,02
+
+REP:
+MOV AL, [BL]
+OUT 01
+INC BL
+JMP REP
+
+end

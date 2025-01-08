@@ -16,7 +16,7 @@ ORG 40
 		MOV [CL], DL
 		INC AL
 		INC CL
-		JMP Rep
+		JMP Rep 
 koniec:
 RET
 
