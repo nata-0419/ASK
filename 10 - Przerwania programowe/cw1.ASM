@@ -5,7 +5,7 @@
 ; dokonaæ za poœrednictwem stosu (instrukcja POPF).
 
 MOV AL,12		; przekazujê dzieln¹ 12 pod adres AL  
-MOV BL,0		; przekazujê dzielnik "0" pod adres BL jesli chcê by uruchomilo siê przerwanie 0D 
+MOV BL,6		; przekazujê dzielnik "0" pod adres BL jesli chcê by uruchomilo siê przerwanie 0D 
 			; ale mogê przekaaæ tak¿ê inna liczbê i procedura siê nie uruchomi
 
 CMP BL,0		; porównujê wartoœæ w BL do 0

@@ -35,7 +35,7 @@ ENTER:
 	MOV [DL], AL	; przypisz wartoœæ AL do komórki DL
 	INC CL		; inkrementuj CL (powiel o jeden)
 	CMP CL, 59	; porównaj CL do 59
-	JZ Main		; skocz do main
+	JZ GLOWNA 	; skocz do main
 	INC DL		; inkrementuj DL 
 	JMP ODCZYTUJ	; skacz do odczytuj by pokoleji odczytywaæ klawisze
 
